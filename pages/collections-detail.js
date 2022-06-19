@@ -12,10 +12,10 @@ import DialogTitle from '@mui/material/DialogTitle';
 function List() {
   const params = useRouter();
   let [collection, setCollection] = React.useState([]);
-  let [collectionDetail, setCollectionDetail] = React.useState([{
+  let [collectionDetail, setCollectionDetail] = React.useState({
     name: '-',
     data: []
-  }]);
+  });
   const [newMappingCollection, setNewMappingCollection] = React.useState([]);
   if (typeof window !== 'undefined') {
     if (localStorage.getItem("my_collection") === null) {
@@ -29,6 +29,11 @@ function List() {
       return i.name === params.query.name;
     });
     collectionDetail = collectionDetail ? collectionDetail[0] : [];
+  } else {
+    // collectionDetail = {
+    //   name: '-',
+    //   data: []
+    // };
   }
 
 
