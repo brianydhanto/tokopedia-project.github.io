@@ -1,2 +1,1 @@
-# tokopedia-project.github.io
-Tokopedia Project Assignment
+This is Web Platform Project Assignment from Tokopedia
