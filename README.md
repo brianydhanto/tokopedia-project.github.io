@@ -1,6 +1,6 @@
 This is Web Platform Project Assignment from Tokopedia
 
-this web app was built by using React.js and Next as a framework
+Web app was built by using React.js and Next as a framework
 
 How to run this app:
 
