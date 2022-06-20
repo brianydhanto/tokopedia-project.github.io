@@ -4,10 +4,9 @@ this web app was built by using React.js and Next as a framework
 
 How to run this app:
 
-1. Clone the project  
-2. Open terminal
-3. Go to project directory
-4. Run npm install
-5. Run npm run dev
+1. Open terminal and clone the project with type git clone https://github.com/brianydhanto/tokopedia-project.github.io.git  
+2. Go to project directory
+3. Run npm install
+4. Run npm run dev
 
-Visit Demo https://tokopedia-project-github-io.vercel.app/
+Visit demo: https://tokopedia-project-github-io.vercel.app/
